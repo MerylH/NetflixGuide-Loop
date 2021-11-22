@@ -1,0 +1,77 @@
+
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #221c1f;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .container
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+
+  header{
+    height: 110px;    
+    text-align: center;
+}
+
+  nav{
+    background-color: rgba(255, 0, 0, 0.404);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+  
+  .gotlogo {
+    text-align: center;
+  }
+  
+  
+  .slider {
+    height: 500px;
+    width: 800px;
+    text-align: center;
+  }
+
+  main{
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 240px;
+    padding-left: 240px;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.356);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer p{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  
+}
+
+main p{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}

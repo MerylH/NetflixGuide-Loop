@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="../Images/netflixIcon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+           <a href="https://www.netflix.com" target="blank"><img src="../Images/netflix-removebg-preview.png" alt="Logo for Netflix"></a>
+        </header>
+    
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="../html/about.html">about</a>
+          <a href="../html/new.html">what's coming?</a>
+        </nav>
+    </div>
+   <center>
+    <div class="slider">
+      <img name="slide" id="slide" height="500" width="800" alt="displaying a slideshow">
+    </div>
+        <script>
+            var i = 0; // Start Point
+            var images = []; // Images Array
+            var time = 3000; // Time Between Switch
+        
+            // Image List
+            images[0] = "https://fdn.gsmarena.com/imgroot/news/20/10/netflix-india-free-weekend/-1200/gsmarena_001.jpg";
+            images[1] = "https://images.ctfassets.net/4cd45et68cgf/5y7i4snzpqkr2oHRCRAkN4/c144749aa0df745e43367744af149f66/Android_Collage_1920x1080__UCAN_En.jpg";
+            images[2] = "https://cdn.tmobile.com/content/dam/t-mobile/ntm/specific-use/netflix/bg/619306-bg-full-netflix-grid-v2.desktop.jpg"
+        
+            // Change Image
+            function changeImg() {
+              document.getElementById("slide").src = images[i];
+        
+              // Check If Index Is Under Max
+              if (i < images.length - 1) {
+                // Add 1 to Index
+                i++;
+              } else {
+                // Reset Back To O
+                i = 0;
+              }
+        
+              // Run function every x seconds
+              setTimeout("changeImg()", time);
+            }
+        
+            // Run function when page loads
+            window.onload = changeImg;
+          </script>
+        
+
+          <main>
+              <p>Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a library of films and television series through distribution deals as well as own production Netflix Originals.
+
+                As of October 2021, Netflix has over 214 million subscribers worldwide, including 74 million in the United States and Canada, 70 million in Europe, the Middle East and Africa, 39 million in Latin America, and 30 million in Asia-Pacific.[10][11] It is available worldwide except in mainland China (due to local restrictions), Syria, North Korea, and Crimea (due to US sanctions). Netflix has played a prominent role in independent film distribution, and is a member of the Motion Picture Association (MPA).</p>
+          </main>
+          <footer>
+            <p>Netflix Headquaters located at Los Gatos, California, United States.</p>
+          </footer>
+        </center>
+</body>
+</html>

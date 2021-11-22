@@ -1,0 +1,81 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #0b090a;
+    background-image: url(https://www.bandt.com.au/information/uploads/2021/05/netflix.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif', serif;
+
+}
+header{
+    height: 110px;    
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(255, 0, 0, 0.404);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main{
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 240px;
+    padding-left: 240px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.356);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+h1{
+    font-size: 50px;
+    color: red;
+}
+
+p{
+    padding-top:10px;
+    font-size: 20px;
+    color: white;
+}
+button{
+    box-sizing: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+footer p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.video{
+    align-items: center;
+    padding-bottom: 100px;
+}
+
